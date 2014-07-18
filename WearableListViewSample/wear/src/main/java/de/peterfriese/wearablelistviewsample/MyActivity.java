@@ -111,8 +111,7 @@ public class MyActivity extends Activity {
 
         @Override
         public void setScalingAnimatorValue(float value) {
-            image.setCircleRadius(value);
-            image.setCircleRadiusPressed(value);
+            text.setTextSize(value * 20);
         }
 
         @Override
